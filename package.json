@@ -7,11 +7,11 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "ejs": "^3.0.1",
     "express": "~4.9.x",
-    "ejs": "*",
-    "morgan": "*",
-    "random-seed": "*",
-    "rand-token": "*"
+    "morgan": "^1.9.1",
+    "rand-token": "^0.4.0",
+    "random-seed": "^0.3.0"
   },
   "engines": {
     "node": "0.10.x"

@@ -24,7 +24,11 @@
       <div class="pure-u-1">
         <h1>Card Number <%= card %></h1>
         <h1><%= seed %></h1>
-        <p><img src="/cards/c<%= cardValue %>.png"/></p>
+        <p>
+          <% cardValues.forEach( cardValue => { %>
+            <img src="/cards/c<%= cardValue %>.png"/>
+          <% }); %>
+        </p>
         <br/>
         <h3>Current player</h3>
         <p>Record your threat and this URL:</p>
